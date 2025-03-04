@@ -1,3 +1,40 @@
-# AI-Based-PPT-Generator
+# AI Based PPT Generator
 
-This project is a PPT Generator using different frameworks.
+This project is an AI-based PowerPoint presentation generator that analyzes CSV data and creates a comprehensive report with slides. The application uses various agents to load data, generate content, create plots, and assemble the final report.
+
+
+## Agents
+
+- **DataLoaderAgent**: Loads and analyzes CSV data.
+- **ContentGeneratorAgent**: Generates content based on data analysis using the LLaMA model.
+- **SlideBuilderAgent**: Creates PowerPoint slides with different layouts and themes.
+- **PlotGeneratorAgent**: Generates plots from the data using Matplotlib.
+- **ReportAssemblerAgent**: Assembles the report and converts it to different formats.
+- **UIHandlerAgent**: Handles the user interface using Streamlit.
+
+## Installation
+
+ Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the application:
+    ```sh
+    streamlit run ppt_generator.py
+    ```
+
+2. Open the Streamlit interface in your browser and follow the instructions to upload a CSV file and customize your report.
+
+## Example
+
+1. Upload a CSV file.
+2. Select the column to analyze and the plot type.
+3. Customize the theme, font style, and minimum number of slides.
+4. Generate the draft report.
+5. Edit the slides if needed.
+6. Finalize and export the report in the desired format (ODP, PDF, DOCX).
+
+
