@@ -1,6 +1,8 @@
 # AI Based PPT Generator
 
-This project is an AI-based PowerPoint presentation generator that analyzes CSV data and creates a comprehensive report with slides. The application uses various agents to load data, generate content, create plots, and assemble the final report.
+This version is an AI-based PowerPoint presentation generator that analyzes CSV data and creates a comprehensive report with slides. The application uses various agents to load data, generate content, create plots, and assemble the final report.
+
+This version wants the user to select a single column and it will be compared with all other columns in the dataset or csv file.
 
 
 ## Agents
@@ -15,6 +17,7 @@ This project is an AI-based PowerPoint presentation generator that analyzes CSV 
 ## Installation
 
  Install the required dependencies:
+ 
     ```sh
     pip install -r requirements.txt
     ```
@@ -23,7 +26,7 @@ This project is an AI-based PowerPoint presentation generator that analyzes CSV 
 
 1. Run the application:
     ```sh
-    streamlit run ppt_generator.py
+    streamlit run code.py
     ```
 
 2. Open the Streamlit interface in your browser and follow the instructions to upload a CSV file and customize your report.
@@ -37,4 +40,5 @@ This project is an AI-based PowerPoint presentation generator that analyzes CSV 
 5. Edit the slides if needed.
 6. Finalize and export the report in the desired format (ODP, PDF, DOCX).
 
-
+## Note!!
+There is something wrong here, it is giving exception cases exception handling.
