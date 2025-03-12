@@ -1,8 +1,8 @@
-#Automated EDA Report Generator
+# Automated EDA Report Generator
 
 This version generates an automated Exploratory Data Analysis (EDA) report and exports the results into a PowerPoint presentation.
 
-Features
+## Features
 
 * Reads a dataset (CSV, Excel, etc.)
 
