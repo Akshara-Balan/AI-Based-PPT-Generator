@@ -17,10 +17,9 @@ This version wants the user to select a single column and it will be compared wi
 ## Installation
 
  Install the required dependencies:
- 
-    ```sh
-    pip install -r requirements.txt
-    ```
+```sh
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -38,7 +37,7 @@ This version wants the user to select a single column and it will be compared wi
 3. Customize the theme, font style, and minimum number of slides.
 4. Generate the draft report.
 5. Edit the slides if needed.
-6. Finalize and export the report in the desired format (ODP, PDF, DOCX).
+6. Finalize and export the report in the desired format (ODP, PDF, DOCX). ............ This is available when we run ppt_generator.py, but it is giving error. Don't expect this when running code.py
 
 ## Note!!
-There is something wrong here, it is giving exception cases exception handling.
+There is something wrong here, it is giving exception cases exception handling in the generated PPT.
