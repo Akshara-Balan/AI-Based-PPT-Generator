@@ -11,3 +11,18 @@ This version generates an automated Exploratory Data Analysis (EDA) report and e
 * Generates visualizations (histograms, boxplots, correlation heatmaps)
 
 * Creates a PowerPoint presentation with findings
+
+## Installation
+```sh
+pip install -r requirements.txt
+```
+
+## Running
+1. Linux:
+```sh
+streamlit run ppt_generator.py
+```
+2. Windows:
+```sh
+python -m streamlit run ppt_generator.py
+```
